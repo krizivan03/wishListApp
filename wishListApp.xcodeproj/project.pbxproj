@@ -14,6 +14,14 @@
 		9840770E2426AF7D0057E482 /* wishListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9840770C2426AF7D0057E482 /* wishListApp.xcdatamodeld */; };
 		984077102426AF810057E482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9840770F2426AF810057E482 /* Assets.xcassets */; };
 		984077132426AF810057E482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984077112426AF810057E482 /* LaunchScreen.storyboard */; };
+		9840771B2426BC8C0057E482 /* itemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9840771A2426BC8C0057E482 /* itemTableViewCell.swift */; };
+		984077212426DC400057E482 /* itemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984077202426DC400057E482 /* itemModel.swift */; };
+		984077232426E4AB0057E482 /* addEditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984077222426E4AB0057E482 /* addEditItemViewController.swift */; };
+		984F9C35244A6FF600EC2E18 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F9C33244A6FF600EC2E18 /* Item+CoreDataClass.swift */; };
+		984F9C38244A857B00EC2E18 /* locationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F9C37244A857B00EC2E18 /* locationViewController.swift */; };
+		984F9C3A244BD07700EC2E18 /* matchingLocTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F9C39244BD07700EC2E18 /* matchingLocTableViewCell.swift */; };
+		984F9C3E244D04DA00EC2E18 /* itemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F9C3D244D04DA00EC2E18 /* itemDetailViewController.swift */; };
+		984F9C40244FDE0100EC2E18 /* jsonItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984F9C3F244FDE0000EC2E18 /* jsonItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,15 @@
 		9840770F2426AF810057E482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		984077122426AF810057E482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		984077142426AF810057E482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9840771A2426BC8C0057E482 /* itemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemTableViewCell.swift; sourceTree = "<group>"; };
+		984077202426DC400057E482 /* itemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemModel.swift; sourceTree = "<group>"; };
+		984077222426E4AB0057E482 /* addEditItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEditItemViewController.swift; sourceTree = "<group>"; };
+		984F9C32244A6F6000EC2E18 /* wishListApp 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "wishListApp 2.xcdatamodel"; sourceTree = "<group>"; };
+		984F9C33244A6FF600EC2E18 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		984F9C37244A857B00EC2E18 /* locationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationViewController.swift; sourceTree = "<group>"; };
+		984F9C39244BD07700EC2E18 /* matchingLocTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchingLocTableViewCell.swift; sourceTree = "<group>"; };
+		984F9C3D244D04DA00EC2E18 /* itemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemDetailViewController.swift; sourceTree = "<group>"; };
+		984F9C3F244FDE0000EC2E18 /* jsonItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +75,16 @@
 		984077022426AF7D0057E482 /* wishListApp */ = {
 			isa = PBXGroup;
 			children = (
+				984F9C33244A6FF600EC2E18 /* Item+CoreDataClass.swift */,
+				984077202426DC400057E482 /* itemModel.swift */,
+				984F9C37244A857B00EC2E18 /* locationViewController.swift */,
+				984F9C39244BD07700EC2E18 /* matchingLocTableViewCell.swift */,
+				984F9C3D244D04DA00EC2E18 /* itemDetailViewController.swift */,
+				984F9C3F244FDE0000EC2E18 /* jsonItemTableViewCell.swift */,
 				984077032426AF7D0057E482 /* AppDelegate.swift */,
 				984077052426AF7D0057E482 /* SceneDelegate.swift */,
+				9840771A2426BC8C0057E482 /* itemTableViewCell.swift */,
+				984077222426E4AB0057E482 /* addEditItemViewController.swift */,
 				984077072426AF7D0057E482 /* ViewController.swift */,
 				984077092426AF7D0057E482 /* Main.storyboard */,
 				9840770F2426AF810057E482 /* Assets.xcassets */,
@@ -141,10 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984F9C38244A857B00EC2E18 /* locationViewController.swift in Sources */,
+				9840771B2426BC8C0057E482 /* itemTableViewCell.swift in Sources */,
+				984F9C3E244D04DA00EC2E18 /* itemDetailViewController.swift in Sources */,
 				9840770E2426AF7D0057E482 /* wishListApp.xcdatamodeld in Sources */,
+				984F9C3A244BD07700EC2E18 /* matchingLocTableViewCell.swift in Sources */,
 				984077082426AF7D0057E482 /* ViewController.swift in Sources */,
+				984077212426DC400057E482 /* itemModel.swift in Sources */,
 				984077042426AF7D0057E482 /* AppDelegate.swift in Sources */,
 				984077062426AF7D0057E482 /* SceneDelegate.swift in Sources */,
+				984F9C35244A6FF600EC2E18 /* Item+CoreDataClass.swift in Sources */,
+				984F9C40244FDE0100EC2E18 /* jsonItemTableViewCell.swift in Sources */,
+				984077232426E4AB0057E482 /* addEditItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +380,7 @@
 		9840770C2426AF7D0057E482 /* wishListApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				984F9C32244A6F6000EC2E18 /* wishListApp 2.xcdatamodel */,
 				9840770D2426AF7D0057E482 /* wishListApp.xcdatamodel */,
 			);
 			currentVersion = 9840770D2426AF7D0057E482 /* wishListApp.xcdatamodel */;
